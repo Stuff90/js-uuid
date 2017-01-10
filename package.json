@@ -1,22 +1,19 @@
 {
-  "name": "angular-uuid",
-  "title": "angular-uuid",
-  "description": "An AngularJS wrapper for a rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
-  "version": "0.0.4",
-  "homepage": "https://github.com/munkychop/angular-uuid",
+  "name": "js-uuid",
+  "title": "js-uuid",
+  "description": "A browser wrapper for a rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+  "version": "0.0.5",
+  "homepage": "https://github.com/jhewt/js-uuid",
   "author": {
-    "name": "Ivan Hayes",
-    "url": "http://www.ivanhayes.com"
+    "name": "José A. Sachs",
+    "url": "http://www.jsachs.net"
   },
-  "main": "angular-uuid.js",
+  "main": "js-uuid.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/munkychop/angular-uuid.git"
+    "url": "git://github.com/jhewt/js-uuid.git"
   },
   "keywords": [
-    "angular",
-    "angularjs",
-    "angular-uuid",
     "uuid",
     "guid",
     "rfc4122",
@@ -27,7 +24,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/munkychop/angular-uuid/blob/master/LICENSE"
+      "url": "https://github.com/jhewt/js-uuid/blob/master/LICENSE"
     }
   ]
 }
