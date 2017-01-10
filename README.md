@@ -1,10 +1,10 @@
-# angular-uuid
+# js-uuid
 
-angular-uuid is an AngularJS wrapper for Robert Kieffer's [node-uuid](https://github.com/broofa/node-uuid), which provides simple, fast generation of [RFC4122](http://www.ietf.org/rfc/rfc4122.txt) UUIDS.
+js-uuid is an browser wrapper for Robert Kieffer's [node-uuid](https://github.com/broofa/node-uuid), which provides simple, fast generation of [RFC4122](http://www.ietf.org/rfc/rfc4122.txt) UUIDS.
+Based on munkychop's fork [angular-uuid](https://github.com/munkychop/angular-uuid).
 
 ### Features
 
-* AngularJS service – no global scope pollution
 * Generate RFC4122 version 1 or version 4 UUIDs
 * Cryptographically strong random # generation on supporting platforms
 * Tiny file size when minified.
@@ -14,38 +14,20 @@ angular-uuid is an AngularJS wrapper for Robert Kieffer's [node-uuid](https://gi
 If using CommonJS then simply require angular-uuid as per usual, prior to setting up your AngularJS modules (but after including angular):
 
 ```
-npm install --save angular-uuid
+npm install --save js-uuid
 ```
 
 ```javascript
-require("angular-uuid");
+require("js-uuid");
 ```
 
 Otherwise use a regular script tag (after including angular):
 
 ```html
-<script src="angular-uuid.js"></script>
+<script src="js-uuid.js"></script>
+<script>uuid.v4();</script>
 ```
 
-### Angular Module Usage
-
-Ensure that you include *angular-uuid* in your module definition:
-
-```javascript
-var CoolApp = angular.module("CoolApp", ["angular-uuid"]);
-```
-
-You can then inject *uuid* where necessary, for example:
-
-```javascript
-CoolApp.controller("MainCtrl", ["uuid", MainCtrl]);
-
-function MainCtrl (uuid)
-{
-    var hash = uuid.v4();
-    console.log(hash);
-}
-```
 
 ### Documentation
 
