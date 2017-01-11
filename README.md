@@ -23,7 +23,7 @@ require("js-uuid");
 import uuid from 'js-uuid';
 ```
 
-Otherwise use a regular script tag (after including angular):
+Otherwise use a regular script tag:
 
 ```html
 <script src="js-uuid.js"></script>
