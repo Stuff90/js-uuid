@@ -2,7 +2,7 @@
   "name": "js-uuid",
   "title": "js-uuid",
   "description": "A browser wrapper for a rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/jhewt/js-uuid",
   "author": {
     "name": "José A. Sachs",
