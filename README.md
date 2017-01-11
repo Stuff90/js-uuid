@@ -11,7 +11,7 @@ Based on munkychop's fork [angular-uuid](https://github.com/munkychop/angular-uu
 
 ### Installation
 
-If using CommonJS then simply require angular-uuid as per usual, prior to setting up your AngularJS modules (but after including angular):
+If using CommonJS then simply require js-uuid as per usual:
 
 ```
 npm install --save js-uuid
@@ -19,6 +19,8 @@ npm install --save js-uuid
 
 ```javascript
 require("js-uuid");
+// ES6
+import uuid from 'js-uuid';
 ```
 
 Otherwise use a regular script tag (after including angular):
